@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+</head>
+
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        #music-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #audio-player {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="music-container">
+        <h2>Music Player</h2>
+        <audio id="audio-player" controls>
+            <source src="https://youtu.be/CvFH_6DNRCY?si=ACVQLGeEDMZWx4La" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="play-btn">Play</button>
+        <button id="pause-btn">Pause</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audioPlayer = document.getElementById('audio-player');
+            const playButton = document.getElementById('play-btn');
+            const pauseButton = document.getElementById('pause-btn');
+
+            playButton.addEventListener('click', function() {
+                audioPlayer.play();
+            });
+
+            pauseButton.addEventListener('click', function() {
+                audioPlayer.pause();
+            });
+        });
+    </script>
+</body>
+</html>
+
+</body>
+
+</html>

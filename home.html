@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+	<meta charset="UTF-8">
+	<title>Stressslavvy site.</title>
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="leftMenu">
+		<a href="javscript:void(0)" class="btn-area" onclick="closeBtn()">×</a>
+		<div class="mainNav">
+			<a href="#">home</a>
+			<a href="#about">about</a>
+			<a href="#portfolio">Resources</a>
+			
+		        <a href="#contact">Contact</a>
+			<a href="#login">Login</a>
+		</div>
+	</div>
+	<span onclick="openBtn()">☰ Menu</span>
+	
+	<div class="content">
+		<div class="box">
+			<h2>Stressslavvy</h2>
+		<p>Discover you path to academic execellence wothout stress</p>
+		</div>
+	</div>
+	<div class="about" id="about">
+		<div class="box">
+			<h2>About Us</h2>
+			<p> I am a student deeply passionate about fostering a supportive environment for fellow learners, i embarked on the journey of crearing this platform. Here at stresslavvy, i recognize the multiafected challenges that students face daily for academic pressure to personal  struggles and everything in betwen</p>
+		</div>
+	</div>
+	<div class="portfolio" id="portfolio">
+		<div class="box">
+			<h2>Resources</h2>
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress Relief Resources for MYP4 Students</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Stress Relief Resources for MYP4 Students</h1>
+  </header>
+  
+  <section class="resource-section">
+          <p>Want to hear more songs</p>
+        <a href="music.html"<button>Click here</button> </a> <br>
+        <a href="video.html"<button>Click here</button></a> <br>
+        <a href="exercise.html">Videos</a>
+    <h2>Tips for Overcoming Stress</h2>
+    <ul>
+      <li>Practice deep breathing exercises</li>
+      <li>Get plenty of sleep</li>
+      <li>Break tasks into smaller, manageable steps</li>
+      <li>Engage in regular physical activity</li>
+      <li>Seek support from friends, family, or a counselor</li>
+    </ul>
+  </section>
+  
+  <section class="resource-section">
+
+  
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<div class="box">
+			<h2>Contact Us</h2>
+			<p> <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <div class="social-icons">
+      <a href="#" class="icon" id="facebook"><img src="facebook_icon.png" alt="Facebook"></a>
+      <a href="#" class="icon" id="instagram"><img src="instagram_icon.png" alt="Instagram"></a>
+      <a href="#" class="icon" id="twitter"><img src="twitter_icon.png" alt="Twitter"></a>
+    </div>
+    <div class="contact-info">
+      <p id="facebook-contact">Email: ahmed.samon@mpesafoundationacademy.ac.ke</p>
+      <p id="instagram-contact">Email: ahmadokeiyoweze@gmail.com</p>
+      <p id="twitter-contact">Phone: 0709139526</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<style> body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h2 {
+  color: #333333;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+</style>
+<script>document.getElementById('facebook').addEventListener('click', function() {
+  var email = document.getElementById('facebook-contact').innerText;
+  window.location.href = 'mailto:' + email;
+});
+
+document.getElementById('instagram').addEventListener('click', function() {
+  var email = document.getElementById('instagram-contact').innerText;
+  window.location.href = 'mailto:' + email;
+});
+
+document.getElementById('twitter').addEventListener('click', function() {
+  var phone = document.getElementById('twitter-contact').innerText;
+  window.location.href = 'tel:' + phone;
+});
+</script>
+</p>
+		</div>
+	</div>
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		function openBtn()
+		{
+			document.getElementById("leftMenu").style.width = "250px";
+		}
+
+		function closeBtn()
+		{
+			document.getElementById("leftMenu").style.width = "0";
+		}
+	</script>
+</body>
+</html>
+<style>
+        * {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: impact;
+	background-color:#332F7D
+}
+html {
+	scroll-behavior: smooth;
+}
+#leftMenu {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:#332F7D;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	z-index: 1000;
+}
+.mainNav {
+	margin-top: 70px;
+}
+.mainNav a {
+	margin-bottom: 15px;
+}
+.content, .about, .portfolio, .services, .blog, .contact {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.content h2, .about h2, .portfolio h2, .services h2, .blog h2, .contact h2 {
+	font-family: russo one;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: deepskyblue;
+}
+.content p, .about p, .portfolio p, .services p, .blog p, .contact p {
+	font-family: 'Times New Roman', Times, serif;
+	width: 65%;
+	line-height: 1.9;
+	text-align: center;
+	margin: auto;
+}
+.content {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background: url(img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.content:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: -1;
+}
+.content p {
+	color: #fff;
+}
+#leftMenu a {
+	padding: 8px 8px 8px 10px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+	transition: 0.4s;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 0 50PX 50px 0;
+}
+#leftMenu a:hover {
+	color: #000;
+	background: #FFF;
+}
+#leftMenu a.btn-area {
+	border-radius: 0;
+}
+#leftMenu .btn-area {
+	position: absolute;
+	top: 0;
+	right: 15px;
+	font-size: 40px;
+}
+span {
+	position: fixed;
+	right: 90px;
+	top: 30px;
+	font-size: 30px;
+	transition: 0.3s;
+	cursor: pointer;
+	z-index: 5;
+	color: deepskyblue;
+}
+@media (max-width:767px) {
+	span {
+		right: 15px;
+		top: 20px;
+		font-size: 20px;
+	}
+	.content h2, .about h2, .portfolio h2, .services h2, .blog h2, .contact h2 {
+		font-size: 35px;
+	}
+	.mainNav {
+		margin-top: 20px;
+	}
+}
+
+</style>

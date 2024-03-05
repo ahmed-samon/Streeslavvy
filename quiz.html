@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+</head>
+
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress-Related Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stress-Related Questions</h1>
+        <p>Answer the following questions to assess your stress level:</p>
+        <ol>
+            <li>Do you often feel overwhelmed with your daily tasks? <input type="text" id="q1"></li>
+            <li>Do you have trouble sleeping due to worrying thoughts? <input type="text" id="q2"></li>
+            <li>Have you experienced changes in your appetite recently? <input type="text" id="q3"></li>
+            <li>Do you feel tense or have muscle tension frequently? <input type="text" id="q4"></li>
+            <li>Have you noticed a decrease in your ability to concentrate? <input type="text" id="q5"></li>
+            <li>Do you frequently feel irritable or easily angered? <input type="text" id="q6"></li>
+            <li>Have you experienced any unexplained physical symptoms, such as headaches or stomachaches? <input type="text" id="q7"></li>
+            <li>Do you often feel fatigued or lacking in energy? <input type="text" id="q8"></li>
+            <li>Have you withdrawn from social activities or hobbies you used to enjoy? <input type="text" id="q9"></li>
+            <li>Do you frequently experience racing thoughts or difficulty quieting your mind? <input type="text" id="q10"></li>
+        </ol>
+        <button onclick="submitAnswers()">Submit Answers</button>
+    </div>
+
+    <script>
+        function submitAnswers() {
+            var answers = {
+                q1: document.getElementById('q1').value,
+                q2: document.getElementById('q2').value,
+                q3: document.getElementById('q3').value,
+                q4: document.getElementById('q4').value,
+                q5: document.getElementById('q5').value,
+                q6: document.getElementById('q6').value,
+                q7: document.getElementById('q7').value,
+                q8: document.getElementById('q8').value,
+                q9: document.getElementById('q9').value,
+                q10: document.getElementById('q10').value
+            };
+
+            console.log(answers); // You can do whatever you want with the answers here
+            // For instance, you can send them to a server for processing, display them, etc.
+            // For simplicity, we'll just log them to the console for now.
+        }
+    </script>
+</body>
+</html>
+
+</body>
+
+</html>

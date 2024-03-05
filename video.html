@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+</head>
+
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music and Video Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .player {
+            margin-bottom: 20px;
+        }
+        video, audio {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Music and Video Player</h2>
+        <div class="player">
+            <h3>Audio Player</h3>
+            <audio id="audio-player" controls>
+                <source src="your-audio-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <button id="play-audio-btn">Play</button>
+            <button id="pause-audio-btn">Pause</button>
+        </div>
+        <div class="player">
+            <h3>Video Player</h3>
+            <video id="video-player" controls>
+                <source src="<!DOCTYPE html>
+<
+</body>
+</html>
+" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <button id="play-video-btn">Play</button>
+            <button id="pause-video-btn">Pause</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audioPlayer = document.getElementById('audio-player');
+            const videoPlayer = document.getElementById('video-player');
+            const playAudioBtn = document.getElementById('play-audio-btn');
+            const pauseAudioBtn = document.getElementById('pause-audio-btn');
+            const playVideoBtn = document.getElementById('play-video-btn');
+            const pauseVideoBtn = document.getElementById('pause-video-btn');
+
+            playAudioBtn.addEventListener('click', function() {
+                audioPlayer.play();
+            });
+
+            pauseAudioBtn.addEventListener('click', function() {
+                audioPlayer.pause();
+            });
+
+            playVideoBtn.addEventListener('click', function() {
+                videoPlayer.play();
+            });
+
+            pauseVideoBtn.addEventListener('click', function() {
+                videoPlayer.pause();
+            });
+        });
+    </script>
+</body>
+</html>
+
+</body>
+
+</html>
